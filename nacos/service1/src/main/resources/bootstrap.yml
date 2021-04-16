@@ -1,0 +1,13 @@
+server:
+  port:56010 #启动端口 命令行注入
+
+spring:
+  application:
+    name:service1
+  cloud:
+    nacos:
+      config:
+        server-addr:10.108.4.173:8848 #nacos配置中心地址
+        file-extension:yaml
+        namespace:6081e2a0-9d02-4dd0-a6fa-dac7289086e6 #开发环境
+        group:TEST_GROUP #测试组
