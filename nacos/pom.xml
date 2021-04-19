@@ -5,6 +5,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>service1</module>
+        <module>service2</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
